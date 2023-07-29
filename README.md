@@ -119,7 +119,7 @@ npx react-native run-ios
 
 ## Credits
 
-| [<img src="https://avatars.githubusercontent.com/u/116055107?v=4" width=115><br><sub>Montserrat Aguilar Valle</sub>](https://github.com/montsegv-2) | [<img src="https://avatars.githubusercontent.com/u/47892591?v=4" width=115><br><sub>Alberto García Martínez</sub>](https://github.com/AlbertoG22) | [<img src="https://avatars.githubusercontent.com/u/44180680?v=4" width=115><br><sub>Orlando Landillo</sub>](https://github.com/landillo)
+| [<img src="https://avatars.githubusercontent.com/u/116055107?v=4" width=115><br><sub>Montserrat Aguilar Valle</sub>](https://github.com/montsegv-2) | [<img src="https://avatars.githubusercontent.com/u/47892591?v=4" width=115><br><sub>Alberto García Martínez</sub>](https://github.com/AlbertoG22) | [<img src="https://avatars.githubusercontent.com/u/44180680?v=4" width=115><br><sub>Orlando Landillo</sub>](https://github.com/landillo) | [<img src="https://avatars.githubusercontent.com/u/112898464?v=4" width=115><br><sub>Miguel Cobián</sub>](https://github.com/mcmmiguel)
 | :---: | :---: | :---: | :---: |
 
 ## Badges
