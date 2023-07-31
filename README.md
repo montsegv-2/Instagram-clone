@@ -7,9 +7,9 @@
 
 * [Description of project](#description-of-project)
 * [Functional Requirements](#functional-requirements)
-* [Requerimientos No Funcionales](#requerimientos-no-funcionales)
-* [Interfaz de usuario](#interfaz-de-usuario)
-* [Base de datos](#base-de-datos)
+* [Non-Functional requirements](#non-functional-requirements)
+* [User Interface](#user-interface)
+* [Database](#database)
 * [How to Install and Run the Project](#how-to-Install-and-Run-the-Project.)
 * [Tools used](#tools-used)
 * [Credits](#credits)
@@ -56,25 +56,28 @@ The application must cover the following functionalities:
 - **Messaging**:
 	1. As an alternate means of direct communication, a messaging section should be considered, where the user can contact the nutritionist to address any doubts regarding their nutritional plan.
 
-## Requerimientos no funcionales
-La aplicación deberá cubrir las siguientes funcionalidades:
-- **Base de datos**:
-	1. Guardar información en Firebase. Desde los usuarios y planes personalizados, hasta la información del paciente y nutriólogo, etc.
-- **Calidad**:
-	1. Utilizar prettier para corregir formato de código
-	2. Se debe alcanzar una puntuación **A** en herramientas de análisis de código estático como Codacy o equivalentes. Esto implica mantener un código limpio, legible y bien estructurado.
-	3. Incluir pruebas unitarias.
-- **Ejecución**:
-	1. Puede ejecutarse tanto como para Android o IOS.
-	2. Se deben realizar pruebas exhaustivas en ambos sistemas para garantizar un funcionamiento correcto y sin problemas.
-- **Diseño**:
-	1. El diseño de la aplicación, incluyendo los formularios, listados y otros elementos visuales, debe seguir las pautas y especificaciones proporcionadas, asegurando una apariencia profesional y coherente en toda la aplicación.
-- **Manejo del estado**:
-	1. Utilizar Hooks, Redux, Context API u otra biblioteca similar para gestionar el estado de la aplicación, permitiendo un flujo de datos coherente y predecible entre los diferentes componentes.
+## Non-Functional requirements
 
-## Interfaz de usuario
+The application must cover the following functionalities:
+
+- **Database**:
+	1. Store information in Firebase. From user and custom plans data to patient and nutritionist information, etc.
+- **Quality**:
+	1. Use prettier to fix code formatting
+ 	2. It should achieve an **A** grade in static code analysis tools like Codacy or equivalents. This implies maintaining clean, 		readable, and well-structured code.
+	4. Include unit tests.
+- **Execution**:
+	1. It should be runnable for both Android and IOS platforms.
+	2. Thorough testing on both systems must be conducted to ensure proper and smooth functionality.
+- **Design**:
+	1. The application's design, including forms, listings, and other visual elements, should follow provided guidelines and specifications, ensuring a professional and consistent appearance throughout the application.
+- **State Management**:
+	1. Use Hooks, Redux, Context API, or similar libraries to manage the application's state, allowing for a coherent and predictable data flow among different components.
+
+## User Interface
 ﻿https://www.figma.com/proto/K14kpeiZxnN6yuNPEiIs9R/FoodieCare-App?type=design&node-id=77-206&t=yr665nguUMCnlNcD-0&scaling=scale-down&page-id=0%3A1 
-## Base de datos
+ 
+## Database
 [https://dbdiagram.io/d/64c177a502bd1c4a5ec11f5c](https://dbdiagram.io/d/64c177a502bd1c4a5ec11f5c) 
 -   **userData:** id, userKey, name, age, image, weight, height, bmi, waist, hips, bust, fatPercentage, goal, caloriesPerDay
     
