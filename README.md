@@ -10,7 +10,7 @@
 * [Non-Functional requirements](#non-functional-requirements)
 * [User Interface](#user-interface)
 * [Database](#database)
-* [How to Install and Run the Project](#how-to-Install-and-Run-the-Project.)
+* [How to Install and Run the Project](#how-to-install-and-run-the-project.)
 * [Tools used](#tools-used)
 * [Credits](#credits)
 * [Badges](#badges)
