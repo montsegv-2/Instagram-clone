@@ -6,7 +6,7 @@
 ![Badge in progress](https://img.shields.io/badge/STATUS-IN%20PROGRESS-green)
 
 * [Description of project](#description-of-project)
-* [Functional Requeriments](#functional-requeriments)
+* [Functional Requirements](#functional-requirements)
 * [Requerimientos No Funcionales](#requerimientos-no-funcionales)
 * [Interfaz de usuario](#interfaz-de-usuario)
 * [Base de datos](#base-de-datos)
@@ -28,31 +28,33 @@ Within the application, the patient will be able to view the diet shared by the 
 
 Each dish shown will provide information about its caloric content, as well as its corresponding recipe.
 
-## Functional requeriments
-La aplicación deberá cubrir las siguientes funcionalidades:
-- **Inicio de sesión**:
-	1. Pantalla de home con logo del nutriólogo.
-	2. Registro con usuario, contraseña y clave.
-	3. Hacer Log In con la clave proporcionada por el nutriologo. Debe contar con todas las validaciones haciendo uso de Firebase.
-- **Pantalla principal**:
-	1. Banner con sugerencias variadas de platillos y/o ejercicios.
-	2. Visualización del progreso calórico del día.
-- **Pantalla de menú semanal programado**:
-	1. Debe poder acceder a la dieta que el nutriologo proporcione.
-	2. Calendario semanal para desplegar la dieta programada de acuerdo con el día.
-	3. La app debe ser capaz de mostrar información sobre el aporte calórico, etc. Así como también deberá mostrar la receta del platillo con las porciones adecuadas. Dicha información deberá obtenerse de una API.
-	4. El usuario podrá marcar como completado un platillo.
-- **Pantalla de reporte calórico**:
-	1. Mostrar barra de progreso de acuerdo con las calorías consumidas en el día y con base en metas puestas por el nutriólogo.
-	2. Además también se podrá visualizar el tipo de macros consumidas de manera detallada.
-	3. En esta pantalla también debe visualizarse el calendario semanal.
-- **Información acerca del nutriólogo y el paciente**:
-	1. La aplicación deberá mostrar información general acerca del nutriologo.
-	2. Se podrán agendar citas presenciales y se deberá emplear el uso de modales para verificar el estado de la solicitud.
-	3. Mostrar tarjeta con información de usuario (peso, altura, peso objetivo, clave de usuario, etc.)
-	4. El usuario tendrá acceso a su citas programadas que no hayan sido atendidas.
-- **Mensajería**:
-	1. Como una vía alterna de comunicación directa, se debe considerar implementar un apartado de mensajería, donde el usuario podrá contactar al nutriologo para atender cualquier tipo de duda acerca de su plan nutricional.
+## Functional requirements
+
+The application must cover the following functionalities:
+
+- **LogIn**:
+	1. Home screen with nutritionist logo.
+	2. Registration with username, password, and key.
+	3. Log in using the key provided by the nutritionist. It must have all validations using Firebase.
+- **Main Screen**:
+	1. Banner with various suggestions for dishes and/or exercises.
+	2. Display of the day's caloric progress.
+- **Scheduled Weekly Menu Screen**:
+	1. It should be able to access the diet provided by the nutritionist.
+	2. Weekly calendar to display the scheduled diet according to the day.
+	3. The app should be able to show information about the caloric intake, etc. It should also display the recipe of the dish with 	appropriate portions. This information should be obtained from an API.
+	4. The user can mark a dish as completed.
+- **Caloric Report Screen**:
+	1. Show progress bar according to the calories consumed in the day and based on goals set by the nutritionist.
+	2. Additionally, detailed visualization of the consumed macros will be available.
+	3. The weekly calendar should also be displayed on this screen.
+- **Information about the Nutritionist and the Patient**:
+	1. The application should display general information about the nutritionist.
+	2. Users can schedule in-person appointments, and modals should be used to verify the status of the request.
+	3. Show a card with user information (weight, height, target weight, user key, etc.).
+	4. The user will have access to their scheduled but unattended appointments.
+- **Messaging**:
+	1. As an alternate means of direct communication, a messaging section should be considered, where the user can contact the nutritionist to address any doubts regarding their nutritional plan.
 
 ## Requerimientos no funcionales
 La aplicación deberá cubrir las siguientes funcionalidades:
