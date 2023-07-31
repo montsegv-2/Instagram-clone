@@ -5,30 +5,30 @@
 
 ![Badge in progress](https://img.shields.io/badge/STATUS-IN%20PROGRESS-green)
 
-* [Description of project](#descripción)
-* [Requerimientos Funcionales](#requerimientos-funcionales)
+* [Description of project](#description-of-project)
+* [Functional Requeriments](#functional-requeriments)
 * [Requerimientos No Funcionales](#requerimientos-no-funcionales)
 * [Interfaz de usuario](#interfaz-de-usuario)
 * [Base de datos](#base-de-datos)
-- [How to Install and Run the Project](#How-to-Install-and-Run-the-Project.)
-- [Tools used](#Tools-used)
-- [Credits](#Credits)
-- [Badges](#Badges)
+* [How to Install and Run the Project](#how-to-Install-and-Run-the-Project.)
+* [Tools used](#tools-used)
+* [Credits](#credits)
+* [Badges](#badges)
 
 ## Description of project
-El sistema contara con dos tipos de perfiles de usuarios (paciente y nutriólogo).
+The system will have two types of user profiles: patient and nutritionist.
 
-El sistema completo se basa en una app móvil para los usuarios y una app web para el nutriólogo. Su función principal es dar seguimiento a los planes y recomendaciones del nutriólogo, por lo que no tendrá la capacidad de suplir una cita presencial con este último.
+The entire system is based on a mobile application for users and a web application for the nutritionist. Its main function is to monitor the nutritionist's plans and recommendations, so it will not have the capability to replace an in-person appointment with the nutritionist.
 
-Este proyecto se enfoca en la interfaz dirigida al paciente.
+This project focuses on the patient interface.
 
-Basándose en que el usuario acudirá primero a una cita presencial con el nutriólogo, será este mismo quien se encargue de proporcionar un usuario, contraseña y clave al paciente para poder acceder a la aplicación y ver su avance conforme a sus objetivos.
+Initially, the user will attend an in-person appointment with the nutritionist, who will be responsible for providing a username, password, and key to the patient so that they can access the application and track their progress based on their goals.
 
-El paciente será capaz de ver la dieta compartida por el nutriólogo dentro de la app, entre demás información que se dará de manera informativa o sugerente.
+Within the application, the patient will be able to view the diet shared by the nutritionist, as well as other relevant information provided informatively or suggestively.
 
-Cada platillo que se muestre podrá mostrar información acerca de su aporte calórico, así como la receta del mismo.
+Each dish shown will provide information about its caloric content, as well as its corresponding recipe.
 
-## Requerimientos funcionales
+## Functional requeriments
 La aplicación deberá cubrir las siguientes funcionalidades:
 - **Inicio de sesión**:
 	1. Pantalla de home con logo del nutriólogo.
